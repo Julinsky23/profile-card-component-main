@@ -24,12 +24,18 @@ body{
 }
 
 .card{
+  margin-left: auto;
+  margin-right: auto;
   width: 450px;
   background-color: white;
   color: black;
   border-radius: 20px;
   overflow: hidden;
-  margin: 50px auto;
+  margin: 300px auto;
+}
+
+.card img{
+  width:100%;
 }
 
 .container{
@@ -48,6 +54,21 @@ body{
 .container h2{
   color: var(--very-dark-desaturated-blue);
   font-size: 18px;
+  margin-top: 10px;
+}
+
+.container h2 span{
+  color: hsl(0, 0%, 59%);
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+
+.container p{
+  color:hsl(0, 0%, 59%);
+  margin-bottom: 25px;
+  margin-top: 5px;
+
 }
 
 .content p{
@@ -57,9 +78,10 @@ body{
 
 .footer{
   display: flex;
+  color:hsl(0, 0%, 59%);
   justify-content: space-between;
-  border-top: 1px solid hsl(229, 23%, 23%);
-  padding: 30px 50px;
+  border-top: 1px solid hsl(0, 0%, 59%, 30%);
+  padding: 40px 50px;
 }
 
 
@@ -68,5 +90,5 @@ body{
   color:hsl(229, 23%, 23%);
   font-weight: 700;
   margin-bottom: 5px;
-  margin-top: 30px;
+  margin-top: 4px;
 }
